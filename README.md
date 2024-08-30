@@ -24,7 +24,9 @@ The dataset consists of nine(9) colums:
 - Funds_raised: Funds raised by the company (in Millions $).
 
 
-### DATA CLEANING STEPS
+### DATA CLEANING
+Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
+These are the following steps we will take to ensure the data is clean;
 1. Check for duplicates and remove any.
 2. Standardize data and fix errors.
 3. Look at null values. 
