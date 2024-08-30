@@ -6,6 +6,7 @@ Through data analysis and visualization, the project aims to uncover trends, pat
 
 This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.
 
+
 ### DATASET
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
@@ -22,8 +23,9 @@ The dataset consists of nine(9) colums:
 - Country: Country.
 - Funds_raised: Funds raised by the company (in Millions $).
 
+
 ### DATA CLEANING STEPS
-1. check for duplicates and remove any
-2. standardize data and fix errors
-3. Look at null values and see what 
-4. remove any columns and rows that are not necessary
+1. Check for duplicates and remove any.
+2. Standardize data and fix errors.
+3. Look at null values. 
+4. Remove unnecessary columns and rows.
