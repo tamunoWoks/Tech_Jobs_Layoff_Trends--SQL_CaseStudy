@@ -48,6 +48,7 @@ These are the following steps we will take to ensure the data is clean;
 
 #### Procedure
 - Create new database and import csv file
-We need to create a new database (world_layoffs) so we can upload the dataset (layoffs.csv) before we can start manipulating the data.
+
+We need to create a new database (world_layoffs) in MySQL so we can upload the dataset (layoffs.csv) and start manipulating the data.
 
 -  
