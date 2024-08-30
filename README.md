@@ -24,7 +24,7 @@ The dataset consists of nine(9) colums:
 - Funds_raised: Funds raised by the company (in Millions $).
 
 
-## BUSINESS UNDERSTANDING
+### BUSINESS UNDERSTANDING
 The business questions to be answered include:
 - What are the trends in tech layoffs over time? Are the layoffs increasing, decreasing, or stabilizing?
 - Which segments of the tech industry were most affected by layoffs?
