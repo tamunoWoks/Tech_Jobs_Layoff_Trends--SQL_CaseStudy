@@ -19,7 +19,7 @@ The dataset consists of nine(9) colums:
 - Total_laid_off: Number of employees laid off
 - Percentage_laid_off: Percentage of employees laid off.
 - Date: Date of layoff.
-- Stage: Stage of funding.
+- Stage: Company stage of funding at the time of layoff.
 - Country: Country.
 - Funds_raised: Funds raised by the company (in Millions $).
 
