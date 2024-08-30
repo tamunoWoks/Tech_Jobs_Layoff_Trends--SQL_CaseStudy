@@ -10,3 +10,14 @@ This analysis can be valuable for businesses, policymakers, and professionals se
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
 [Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
+
+The dataset consists of nine(9) colums:
+- Company: Name of the company.
+- Location: Location of company headquarters.
+- Industry: Industry of the company.
+- Total_laid_off: Number of employees laid off
+- Percentage_laid_off: Percentage of employees laid off.
+- Date: Date of layoff.
+- Stage: Stage of funding.
+- Country: Country.
+- Funds_raised: Funds raised by the company (in Millions $).
