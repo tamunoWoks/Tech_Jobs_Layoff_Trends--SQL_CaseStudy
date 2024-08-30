@@ -45,3 +45,9 @@ These are the following steps we will take to ensure the data is clean;
 2. Standardize data and fix errors.
 3. Look at null values. 
 4. Remove unnecessary columns and rows.
+
+#### Requirements
+1. Create new database and import csv file
+We need to create a new database (world_layoffs) so we can upload the dataset (layoffs.csv) before we can start manipulating the data.
+
+2. 
