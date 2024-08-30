@@ -1,1 +1,1 @@
-
+-- Clean layoffs.csv with SQL
