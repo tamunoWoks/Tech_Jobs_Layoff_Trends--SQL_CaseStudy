@@ -24,6 +24,20 @@ The dataset consists of nine(9) colums:
 - Funds_raised: Funds raised by the company (in Millions $).
 
 
+## BUSINESS UNDERSTANDING
+The business questions to be answered include:
+- What are the trends in tech layoffs over time? Are the layoffs increasing, decreasing, or stabilizing?
+- Which segments of the tech industry were most affected by layoffs?
+- Which regions or countries were most impacted by tech layoffs?
+- Which companies had the highest number of layoffs, and what factors contributed to their decisions?
+- How did the size of a company correlate with the likelihood or severity of layoffs?
+- Which job roles or departments were most affected by the layoffs?
+- What were the common reasons cited for layoffs (e.g., financial challenges, restructuring, automation)?
+- Did companies that conducted layoffs eventually rehire or stabilize their workforce?
+- How did external factors like COVID-19 waves, economic downturns, or technological shifts influence layoff decisions?
+- How do tech layoffs compare to other industries during the same period?
+
+
 ### DATA CLEANING
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
 These are the following steps we will take to ensure the data is clean;
