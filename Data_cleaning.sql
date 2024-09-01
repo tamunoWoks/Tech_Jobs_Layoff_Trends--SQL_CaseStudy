@@ -51,4 +51,4 @@ CREATE TABLE `world_layoffs`.`layoffs_staging2` (
 `country` text,
 `funds_raised_millions` int,
 row_num INT
-);
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
