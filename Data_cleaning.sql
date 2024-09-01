@@ -17,3 +17,11 @@ FROM layoffs;
 
 
 -- REMOVE DUPLICATE ROWS
+
+-- Add new column (row number)
+SELECT *,
+ROW_NUMBER() OVER(
+PARTITION BY company, industry, total_laid_off, percentage_laid_off, `date`
+) AS row_num
+FROM layoffs_staging;
+
