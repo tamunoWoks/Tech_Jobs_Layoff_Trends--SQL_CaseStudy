@@ -38,3 +38,17 @@ WHERE row_num > 1;
 -- Create a new column and add those row numbers in.
 ALTER TABLE world_layoffs.layoffs_staging 
 ADD row_num INT;
+
+-- Create new table to manipulate:
+CREATE TABLE `world_layoffs`.`layoffs_staging2` (
+`company` text,
+`location`text,
+`industry`text,
+`total_laid_off` INT,
+`percentage_laid_off` text,
+`date` text,
+`stage`text,
+`country` text,
+`funds_raised_millions` int,
+row_num INT
+);
