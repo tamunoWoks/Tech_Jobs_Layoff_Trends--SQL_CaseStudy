@@ -1,17 +1,16 @@
 -- CLEAN DATASET
 
--- 1. Create new database and Import dataset to MySQL
-SELECT *
-FROM layoffs;
 
--- 2. Create new table as staging area.
+-- CREATE NEW DATABASE & IMPORT DATASET TO MYSQL
+
+-- Create new table as staging area.
 CREATE TABLE layoffs_staging
 LIKE layoffs;
 
 SELECT *
-FROM layoffs;
+FROM layoffs_staging;
 
--- 3. Insert the data into new table:
+-- Insert the data into new table:
 INSERT layoffs_staging
 SELECT *
 FROM layoffs;
