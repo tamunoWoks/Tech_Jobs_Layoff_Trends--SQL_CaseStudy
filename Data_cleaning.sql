@@ -34,3 +34,7 @@ FROM world_layoffs.layoffs_staging
 SELECT *
 FROM duplicate_cte
 WHERE row_num > 1;
+
+-- Create a new column and add those row numbers in.
+ALTER TABLE world_layoffs.layoffs_staging 
+ADD row_num INT;
