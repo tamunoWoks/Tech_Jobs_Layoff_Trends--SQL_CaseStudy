@@ -16,3 +16,5 @@ INSERT layoffs_staging
 SELECT *
 FROM layoffs;
 
+
+-- REMOVE DUPLICATE ROWS
