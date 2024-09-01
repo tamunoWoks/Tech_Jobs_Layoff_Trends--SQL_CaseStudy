@@ -51,3 +51,7 @@ These are the following steps we will take to ensure the data is clean;
 We need to create a new database (world_layoffs) in MySQL so we can upload the dataset (layoffs.csv) and start manipulating the data.  
 - Duplicate the original table.  
 A copy ensures that the original data remains untouched and safe. If something goes wrong during the manipulation process, you can easily revert to the original state without significant downtime or effort.
+- Create new table and add new column to check for duplicates  
+Since the table doesnt have a unique column to sort with, we must create one and add to a new table.
+
+
