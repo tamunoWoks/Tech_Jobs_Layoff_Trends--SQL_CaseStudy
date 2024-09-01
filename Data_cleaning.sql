@@ -39,7 +39,7 @@ WHERE row_num > 1;
 ALTER TABLE world_layoffs.layoffs_staging 
 ADD row_num INT;
 
--- Create new table to manipulate:
+-- Create new table for duplicate rows:
 CREATE TABLE `world_layoffs`.`layoffs_staging2` (
 `company` text,
 `location`text,
@@ -52,3 +52,12 @@ CREATE TABLE `world_layoffs`.`layoffs_staging2` (
 `funds_raised_millions` int,
 row_num INT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Insert duplicate rows into empty table
+INSERT INTO `world_layoffs`.`layoffs_staging2`
+SELECT *,
+		ROW_NUMBER() OVER (
+			PARTITION BY company, location, industry, total_laid_off,percentage_laid_off,`date`, stage, country, funds_raised_millions
+			) AS row_num
+	FROM 
+		world_layoffs.layoffs_staging;
