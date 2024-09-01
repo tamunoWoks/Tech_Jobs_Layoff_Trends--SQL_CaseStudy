@@ -55,5 +55,3 @@ A copy ensures that the original data remains untouched and safe. If something g
 Since the table doesnt have a unique column to sort with, we must create one and add to a new table.
 - Delete duplicate rows:
 After sorting table to find duplicate rows, we the delete each row that has more than one entry.
-
-
