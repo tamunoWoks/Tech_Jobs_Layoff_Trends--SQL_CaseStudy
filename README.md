@@ -59,7 +59,7 @@ Since the table doesnt have a unique column to sort with, we must create one and
 After sorting table to find duplicate rows, we then delete each row that has more than one entry.
 
 #### Procedure for standardizing data  
-- Trim whitepaces:  
-Trimming unnecessary whitespaces in our data helps maintain data integrity.
+- Trim whitepaces in column 1 entries:  
+Trimming unnecessary whitespaces in our data helps maintain data integrity. In the company column, the crypto industry is represented with several labels, we need to make them unique.
 - Merge similar industries with same label:  
 The Crypto industry is represented with different labels, hence we set them all to a single label.
