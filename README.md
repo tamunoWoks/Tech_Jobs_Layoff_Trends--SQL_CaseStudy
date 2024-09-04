@@ -63,5 +63,5 @@ After sorting table to find duplicate rows, we then delete each row that has mor
 Trimming unnecessary whitespaces in our data helps maintain data integrity. In the company column, the crypto industry is represented with several labels, we need to make them unique.
 - Merge similar industries with same label:  
 The Crypto industry is represented with different labels, hence we set them all to a single label.
-- Merge similar countries with same label:
+- Merge similar countries with same label:  
 The United States is represented with different labels, hence we set them all to a single label.
