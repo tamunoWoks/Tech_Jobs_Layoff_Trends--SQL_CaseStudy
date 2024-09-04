@@ -1,6 +1,7 @@
 -- CLEAN DATASET
 
 
+
 -- CREATE NEW DATABASE & IMPORT DATASET TO MYSQL
 -- Create new staging table:
 CREATE TABLE world_layoffs.layoffs_staging 
@@ -10,6 +11,7 @@ LIKE world_layoffs.layoffs;
 INSERT world_layoffs.layoffs_staging
 SELECT *
 FROM world_layoffs.layoffs;
+
 
 
 -- 1. REMOVE DUPLICATE ROWS
@@ -66,6 +68,7 @@ FROM world_layoffs.layoffs_staging2
 WHERE row_num >= 2;
 
 
+
 -- 2. STANDARDIZING DATA
 
 -- Trim whitespace from the company column
@@ -88,5 +91,7 @@ SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 
 ALTER TABLE layoffs_staging2
 MODIFY COLUMN `date` DATE;
+
+
 
 -- 3. Handle NULL and blank entries
