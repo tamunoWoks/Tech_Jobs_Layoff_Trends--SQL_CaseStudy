@@ -64,4 +64,4 @@ Trimming unnecessary whitespaces in our data helps maintain data integrity. In t
 - Merge similar industries with same label:  
 The Crypto industry is represented with different labels, hence we set them all to a single label.
 - Merge similar countries with same label:
-The United States is represented with different labels, hence we set them all to a single label.
+- The United States is represented with different labels, hence we set them all to a single label.
