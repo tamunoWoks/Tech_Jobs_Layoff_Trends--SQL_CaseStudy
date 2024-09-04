@@ -82,7 +82,7 @@ UPDATE layoffs_staging2
 SET country = TRIM(TRAILING '.' FROM country)
 WHERE country LIKE 'United States%';
 
--- Change DATE format from text to datetime
+-- Change DATE column data type from text to datetime
 UPDATE layoffs_staging2
 SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 
