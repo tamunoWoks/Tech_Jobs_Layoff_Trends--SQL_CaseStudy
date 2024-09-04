@@ -59,3 +59,5 @@ Since the table doesnt have a unique column to sort with, we must create one and
 After sorting table to find duplicate rows, we then delete each row that has more than one entry.
 
 #### Procedure for standardizing data  
+-- Trim whitepaces
+Trimming unnecessary whitespaces in our data helps maintain data integrity.
