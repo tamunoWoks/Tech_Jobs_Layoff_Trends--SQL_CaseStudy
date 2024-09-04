@@ -46,7 +46,7 @@ These are the following steps we will take to ensure the data is clean;
 3. Look at Null values or Blank values. 
 4. Remove unnecessary columns and rows.
 
-#### Procedure
+#### Procedure for removing duplicates
 - Create new database and import csv file:  
 We need to create a new database (world_layoffs) in MySQL so we can upload the dataset (layoffs.csv) and start manipulating the data.  
 - Duplicate the original table:  
