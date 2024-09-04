@@ -64,3 +64,6 @@ FROM world_layoffs.layoffs_staging;
 DELETE 
 FROM world_layoffs.layoffs_staging2
 WHERE row_num >= 2;
+
+
+-- 2. STANDARDIZING DATA
