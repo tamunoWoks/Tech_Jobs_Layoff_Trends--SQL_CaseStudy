@@ -88,3 +88,5 @@ SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 
 ALTER TABLE layoffs_staging2
 MODIFY COLUMN `date` DATE;
+
+-- 3. Handle NULL and blank entries
