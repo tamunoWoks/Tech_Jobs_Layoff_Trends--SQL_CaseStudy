@@ -65,5 +65,5 @@ Trimming unnecessary whitespaces in our data helps maintain data integrity. In t
 The Crypto industry is represented with different labels, hence we set them all to a single label.
 - Merge similar countries with same label:  
 The United States is represented with different labels, hence we set them all to a single label.
-- Change DATE format from text to datetime:
+- Change DATE format from text to datetime:  
 The date colum has its entries in a text format, we have to change the data type and set the format to the standard date format.
