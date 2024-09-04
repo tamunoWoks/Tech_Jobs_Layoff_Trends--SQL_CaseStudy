@@ -71,3 +71,8 @@ WHERE row_num >= 2;
 -- Trim whitespace from the company column
 UPDATE layoffs_staging2
 SET company = TRIM(company);
+
+-- MERGE similar industries
+UPDATE layoffs_staging2
+SET industry = 'Crypto'
+WHERE industry LIKE 'Crypto%';
