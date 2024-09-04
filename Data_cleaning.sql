@@ -72,7 +72,7 @@ WHERE row_num >= 2;
 UPDATE layoffs_staging2
 SET company = TRIM(company);
 
--- MERGE similar industries
+-- MERGE similar industries with unique label
 UPDATE layoffs_staging2
 SET industry = 'Crypto'
 WHERE industry LIKE 'Crypto%';
