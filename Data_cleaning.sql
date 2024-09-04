@@ -67,3 +67,7 @@ WHERE row_num >= 2;
 
 
 -- 2. STANDARDIZING DATA
+
+-- Trim whitespace from the company column
+UPDATE layoffs_staging2
+SET company = TRIM(company);
