@@ -2,7 +2,6 @@
 
 
 -- CREATE NEW DATABASE & IMPORT DATASET TO MYSQL
-
 -- Create new staging table:
 CREATE TABLE world_layoffs.layoffs_staging 
 LIKE world_layoffs.layoffs;
