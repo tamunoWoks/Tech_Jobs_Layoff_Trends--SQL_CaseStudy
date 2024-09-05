@@ -49,6 +49,7 @@ These are the following steps we will take to ensure the data is clean;
 However, before we start manipulating the data, it is best practice to first create a copy of the raw data for backup purposes.
 
 #### Procedure for removing duplicates
+Having duplicate entries in a dataset can skew patterns when it comes to pattern recognition and data visualization. It is important that every unique record appears only once.  In this case study, the steps taken to remove duplicate data from the dataset is given below: 
 - Create new database and import csv file:  
 We need to create a new database (world_layoffs) in MySQL so we can upload the dataset (layoffs.csv) and start manipulating the data.  
 - Duplicate the original table:  
