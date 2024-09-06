@@ -83,7 +83,7 @@ Unfortunately we do not have enough data to populate other columns with null val
 #### Procedure for deleting unnecessary data
 - Delete irrelevant row:  
 Because some rows do not have enough information, we have to delete them from the table so we can explore relevant data properly.
-- Delete temporary columns created during data cleaning:
+- Delete temporary columns created during data cleaning:  
 Since we had to create an extra column (row_num) while cleaning our data, it is only reasonable to delete it once we are done.
 
 ### CHALLENGES
