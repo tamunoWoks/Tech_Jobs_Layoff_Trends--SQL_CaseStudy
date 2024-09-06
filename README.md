@@ -82,3 +82,4 @@ Unfortunately we do not have enough data to populate other columns with null val
 
 ### CHALLENGES
 Some of the challenges faced while cleaning and exploring the dataset include:
+- INCOMPLETE DATA:
