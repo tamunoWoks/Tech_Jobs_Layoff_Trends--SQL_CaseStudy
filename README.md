@@ -81,3 +81,4 @@ We can use the data from other records to populate similar records with missing 
 Unfortunately we do not have enough data to populate other columns with null values. So we will stop at the industry column.
 
 ### CHALLENGES
+Some of the challenges faced while cleaning and exploring the dataset include:
