@@ -79,3 +79,5 @@ So we can easily populate the missing values, we need to change all blank entrie
 We can use the data from other records to populate similar records with missing values in the industry column.  
   
 Unfortunately we do not have enough data to populate other columns with null values. So we will stop at the industry column.
+
+### CHALLENGES
