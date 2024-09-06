@@ -7,7 +7,6 @@ Through data analysis and visualization, the project aims to uncover trends, pat
 This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.
 
 
-### METHODOLOGY
 ### DATA OVERVIEW
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
@@ -39,7 +38,8 @@ The business questions to be answered include:
 - How do tech layoffs compare to other industries during the same period?
 
 
-### DATA CLEANING
+### METHODOLOGY
+#### DATA CLEANING
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
 These are the following steps we will take to ensure the data is clean;
 1. Remove duplicates.
@@ -49,7 +49,7 @@ These are the following steps we will take to ensure the data is clean;
   
 However, before we start manipulating the data, it is best practice to first create a copy of the raw data for backup purposes.
 
-#### Procedure for removing duplicates
+##### Procedure for removing duplicates
 Having duplicate entries in a dataset can skew patterns when it comes to pattern recognition and data visualization. It is important that every unique record appears only once.  In this case study, the steps taken to remove all duplicate records from the dataset are given below: 
 - Create new database and import csv file:  
 We need to create a new database (world_layoffs) in MySQL so we can upload the dataset (layoffs.csv) and start manipulating the data.  
@@ -60,7 +60,7 @@ Since the table doesnt have a unique column to sort with, we must create one and
 - Delete duplicate rows:  
 After sorting table to find duplicate rows, we then delete each row that has more than one entry.
 
-#### Procedure for standardizing data  
+##### Procedure for standardizing data  
 - Trim whitepaces in column 1 entries:  
 Trimming unnecessary whitespaces in our data helps maintain data integrity. In the company column, the crypto industry is represented with several labels, we need to make them unique.
 - Merge similar industries with same label:  
@@ -70,4 +70,4 @@ The United States is represented with different labels, hence we set them all to
 - Change DATE format from text to datetime:  
 The date colum has its entries in a text format, we have to change the data type and set the format to the standard date format.
 
-#### Procedure for handling NULL and blank values
+##### Procedure for handling NULL and blank values
