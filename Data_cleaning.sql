@@ -94,4 +94,9 @@ MODIFY COLUMN `date` DATE;
 
 
 
--- 3. Handle NULL and blank entries
+-- 3. Handle NULL and Blank entries
+
+-- Change all blank entries in the industry column to NULLS
+UPDATE layoffs_staging2
+SET industry = NULL
+WHERE industry = '';
