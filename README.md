@@ -75,3 +75,5 @@ The date colum has its entries in a text format, we have to change the data type
 ##### Procedure for handling NULL and blank values
 - Change all blank entries in the industry column to NULLS:  
 So we can easily populate the missing values, we need to change all blank entries in the industry column to NULLS for easy manipulation.
+- Populate NULL entries in the industry colum where possible:
+We can use the data from other records to populate similar records with missing values in the industry column.
