@@ -109,7 +109,9 @@ SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
 
--- Delete irrelevant records:
+-- 4. Delete irrelevant records:
+
+-- Delete all columns with incomplete information fromthe dataset:
 DELETE
 FROM layoffs_staging2
 WHERE total_laid_off IS NULL
