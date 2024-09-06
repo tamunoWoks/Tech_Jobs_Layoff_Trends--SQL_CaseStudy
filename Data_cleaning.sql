@@ -94,7 +94,7 @@ MODIFY COLUMN `date` DATE;
 
 
 
--- 3. Handle NULL and Blank entries
+-- 3. HANDLE NULL and BLANK ENTRIES
 
 -- Change all blank entries in the industry column to NULLS:
 UPDATE layoffs_staging2
@@ -109,7 +109,7 @@ SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
 
--- 4. Delete irrelevant records:
+-- 4. DELETE IRRELEVANT DATA
 
 -- Delete all columns with incomplete information fromthe dataset:
 DELETE
