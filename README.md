@@ -38,7 +38,9 @@ The business questions to be answered include:
 - How do tech layoffs compare to other industries during the same period?
 
 
-### METHODOLOGY
+### METHODOLOGY  
+- Data Cleaning.
+
 #### DATA CLEANING
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
 These are the following steps we will take to ensure the data is clean;
