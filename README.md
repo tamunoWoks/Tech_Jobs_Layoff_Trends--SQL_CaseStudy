@@ -7,7 +7,7 @@ Through data analysis and visualization, the project aims to uncover trends, pat
 This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.
 
 
-### ABOUT THE DATASET
+### DATA OVERVIEW
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
 [Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
