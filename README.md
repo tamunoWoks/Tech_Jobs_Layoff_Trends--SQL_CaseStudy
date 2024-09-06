@@ -47,7 +47,7 @@ These are the following steps we will take to ensure the data is clean;
 1. Remove duplicates.
 2. Standardize data and fix errors.
 3. Look at Null values or Blank values. 
-4. Remove unnecessary columns and rows.
+4. Remove unnecessary data.
   
 However, before we start manipulating the data, it is best practice to first create a copy of the raw data for backup purposes.
 
@@ -80,9 +80,11 @@ We can use the data from other records to populate similar records with missing 
   
 Unfortunately we do not have enough data to populate other columns with null values. So we will stop at the industry column.
 
-#### Procedure for deleting unnecessary columns and rows
+#### Procedure for deleting unnecessary data
 - Delete irrelevant row:  
 Because some rows do not have enough information, we have to delete them from the table so we can explore relevant data properly.
+- Delete temporary columns created during data cleaning:
+Since we had to create an extra column (row_num) while cleaning our data, it is only reasonable to delete it once we are done.
 
 ### CHALLENGES
 Some of the challenges faced while cleaning and exploring the dataset include:
