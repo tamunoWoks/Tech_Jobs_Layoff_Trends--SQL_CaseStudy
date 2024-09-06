@@ -108,3 +108,9 @@ JOIN layoffs_staging2 AS t2
 SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
 AND t2.industry IS NOT NULL;
+
+-- Delete irrelevant records:
+DELETE
+FROM layoffs_staging2
+WHERE total_laid_off IS NULL
+AND percentage_laid_off IS NULL;
