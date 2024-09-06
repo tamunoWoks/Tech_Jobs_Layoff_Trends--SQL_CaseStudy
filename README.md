@@ -86,5 +86,5 @@ Because some rows do not have enough information, we have to delete them from th
 
 ### CHALLENGES
 Some of the challenges faced while cleaning and exploring the dataset include:
-- Incomplete Data:
+- Incomplete Data:  
 Because some key columns were missing in the dataset, we couldn't populate certain columns like the total_laid_off column and the percentage_laid_off column which had several missing entries.
