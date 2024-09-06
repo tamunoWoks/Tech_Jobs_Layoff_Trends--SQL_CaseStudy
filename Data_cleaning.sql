@@ -96,7 +96,15 @@ MODIFY COLUMN `date` DATE;
 
 -- 3. Handle NULL and Blank entries
 
--- Change all blank entries in the industry column to NULLS
+-- Change all blank entries in the industry column to NULLS:
 UPDATE layoffs_staging2
 SET industry = NULL
 WHERE industry = '';
+
+-- Populate NULL entries in industry column where possible:
+UPDATE layoffs_staging2 AS t1
+JOIN layoffs_staging2 AS t2
+	ON t1.company = t2.company
+SET t1.industry = t2.industry
+WHERE t1.industry IS NULL
+AND t2.industry IS NOT NULL;
