@@ -10,7 +10,7 @@ This analysis can be valuable for businesses, policymakers, and professionals se
 ### DATA OVERVIEW
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
-Dataset = [Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
+Dataset -> [Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
 
 The dataset consists of nine(9) colums:
 - Company: Name of the company.
