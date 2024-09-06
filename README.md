@@ -77,4 +77,4 @@ The date colum has its entries in a text format, we have to change the data type
 So we can easily populate the missing values, we need to change all blank entries in the industry column to NULLS for easy manipulation.
 - Populate NULL entries in the industry colum where possible:  
 We can use the data from other records to populate similar records with missing values in the industry column.  
-    Unfortunately we do not have enough data to populate other columns with null values. So we will stop at the industry column.
+Unfortunately we do not have enough data to populate other columns with null values. So we will stop at the industry column.
