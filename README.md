@@ -73,5 +73,5 @@ The United States is represented with different labels, hence we set them all to
 The date colum has its entries in a text format, we have to change the data type and set the format to the standard date format.
 
 ##### Procedure for handling NULL and blank values
-- Change all blank entries in the industry column to NULLS:
+- Change all blank entries in the industry column to NULLS:  
 So we can easily populate the missing values, we need to change all blank entries in the industry column to NULLS for easy manipulation.
