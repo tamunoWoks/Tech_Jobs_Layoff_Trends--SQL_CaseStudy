@@ -40,6 +40,7 @@ The business questions to be answered include:
 
 ### METHODOLOGY  
 - Data Cleaning.
+- Exploratory Data Analysis (EDA).
 
 #### DATA CLEANING
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
