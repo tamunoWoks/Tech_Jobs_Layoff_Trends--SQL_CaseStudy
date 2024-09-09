@@ -15,3 +15,10 @@ SELECT MAX(percentage_laid_off),  MIN(percentage_laid_off)
 FROM world_layoffs.layoffs_staging2
 WHERE  percentage_laid_off IS NOT NULL;
 -- OUTPUT: Max = 1, Min = 0
+
+
+-- Retrieve the list of companies who had 100 percent of lay off
+SELECT *
+FROM world_layoffs.layoffs_staging2
+WHERE  percentage_laid_off = 1;
+-- These are the companies who went out of business during this time
