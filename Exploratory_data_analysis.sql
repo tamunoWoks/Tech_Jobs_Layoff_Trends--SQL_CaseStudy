@@ -49,7 +49,7 @@ LIMIT 10;
 -- Amazon leads with a total of 18150 layoffs
 
 
--- total number of employees laid off according to location
+-- total number of employees laid off according to location 
 SELECT location, SUM(total_laid_off)
 FROM world_layoffs.layoffs_staging2
 GROUP BY location
