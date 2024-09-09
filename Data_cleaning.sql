@@ -72,24 +72,24 @@ WHERE row_num >= 2;
 -- 2. STANDARDIZING DATA
 
 -- Trim whitespace from the company column
-UPDATE layoffs_staging2
+UPDATE world_layoffs.layoffs_staging2
 SET company = TRIM(company);
 
 -- MERGE similar industries with unique label
-UPDATE layoffs_staging2
+UPDATE world_layoffs.layoffs_staging2
 SET industry = 'Crypto'
 WHERE industry LIKE 'Crypto%';
 
 -- MERGE similar countries with unique label
-UPDATE layoffs_staging2
+UPDATE world_layoffs.layoffs_staging2
 SET country = TRIM(TRAILING '.' FROM country)
 WHERE country LIKE 'United States%';
 
 -- Change DATE column data type from text to datetime
-UPDATE layoffs_staging2
+UPDATE world_layoffs.layoffs_staging2
 SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 
-ALTER TABLE layoffs_staging2
+ALTER TABLE world_layoffs.layoffs_staging2
 MODIFY COLUMN `date` DATE;
 
 
@@ -97,13 +97,13 @@ MODIFY COLUMN `date` DATE;
 -- 3. HANDLE NULL and BLANK ENTRIES
 
 -- Change all blank entries in the industry column to NULLS:
-UPDATE layoffs_staging2
+UPDATE world_layoffs.layoffs_staging2
 SET industry = NULL
 WHERE industry = '';
 
 -- Populate NULL entries in industry column where possible:
-UPDATE layoffs_staging2 AS t1
-JOIN layoffs_staging2 AS t2
+UPDATE world_layoffs.layoffs_staging2 AS t1
+JOIN world_layoffs.layoffs_staging2 AS t2
 	ON t1.company = t2.company
 SET t1.industry = t2.industry
 WHERE t1.industry IS NULL
@@ -113,10 +113,10 @@ AND t2.industry IS NOT NULL;
 
 -- Delete all columns with incomplete information fromthe dataset:
 DELETE
-FROM layoffs_staging2
+FROM world_layoffs.layoffs_staging2
 WHERE total_laid_off IS NULL
 AND percentage_laid_off IS NULL;
 
 -- Delete temporary columns created during data cleaning:
-ALTER TABLE layoffs_staging2
+ALTER TABLE world_layoffs.layoffs_staging2
 DROP COLUMN row_num;
