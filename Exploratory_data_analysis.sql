@@ -22,3 +22,10 @@ SELECT *
 FROM world_layoffs.layoffs_staging2
 WHERE  percentage_laid_off = 1;
 -- These are the companies who went out of business during this time
+
+-- Let's see the financial strength of the companies who went out of business
+SELECT *
+FROM world_layoffs.layoffs_staging2
+WHERE  percentage_laid_off = 1
+ORDER BY funds_raised_millions DESC;
+-- The top 5 companies that went out of business raised over $1b dollars
