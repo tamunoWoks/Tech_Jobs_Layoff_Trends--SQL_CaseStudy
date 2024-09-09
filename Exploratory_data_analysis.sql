@@ -56,3 +56,11 @@ GROUP BY location
 ORDER BY 2 DESC
 LIMIT 10;
 -- The San Francisco Bay Area had the most lay offs
+
+
+-- total number of employees laid off according to country
+SELECT country, SUM(total_laid_off)
+FROM world_layoffs.layoffs_staging2
+GROUP BY country
+ORDER BY 2 DESC;
+-- The United States had the most with 256559 lay offs
