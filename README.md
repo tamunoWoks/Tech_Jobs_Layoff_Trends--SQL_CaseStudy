@@ -43,6 +43,8 @@ The business questions to be answered include:
 - Exploratory Data Analysis (EDA).
 
 #### DATA CLEANING
+Data Cleaning SQL file -> [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)  
+
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity.
 These are the following steps we will take to ensure the data is clean;
 1. Remove duplicates.
