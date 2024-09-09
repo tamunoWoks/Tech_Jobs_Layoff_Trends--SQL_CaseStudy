@@ -91,7 +91,8 @@ Since we had to create an extra column (row_num) while cleaning our data, it is 
 
 #### EXPLORATORY DATA ANALYSIS (EDA)
 
-Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)
+Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
+
 Here we will query our dataset to answer particular questions for us.
 
 
