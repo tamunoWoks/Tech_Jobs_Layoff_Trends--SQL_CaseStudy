@@ -90,6 +90,8 @@ Because some rows do not have enough information, we have to delete them from th
 Since we had to create an extra column (row_num) while cleaning our data, it is only reasonable to delete it once we are done.
 
 #### EXPLORATORY DATA ANALYSIS (EDA)
+
+Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)
 Here we will query our dataset to answer particular questions for us.
 
 
