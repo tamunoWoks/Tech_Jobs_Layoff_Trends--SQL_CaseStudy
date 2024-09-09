@@ -72,3 +72,11 @@ FROM world_layoffs.layoffs_staging2
 GROUP BY YEAR(date)
 ORDER BY 1 ASC;
 -- 2023 has the most lay off
+
+
+-- Aggregate and sort the total number of layoffs by industry
+SELECT industry, SUM(total_laid_off)
+FROM world_layoffs.layoffs_staging2
+GROUP BY industry
+ORDER BY 2 DESC;
+-- The Consumer industry had the most layoffs with 45182 lay offs
