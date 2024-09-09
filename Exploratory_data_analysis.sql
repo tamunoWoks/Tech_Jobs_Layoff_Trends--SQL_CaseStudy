@@ -1,7 +1,7 @@
 -- Exploratory Data Analysis
 
 SELECT *
-FROM layoffs_staging2;
+FROM world_layoffs.layoffs_staging2;
 
 
 -- Retrieve the maximum number of employees laid off by a company
@@ -94,7 +94,7 @@ ORDER BY 2 DESC;
 WITH Company_Year AS 
 (
   SELECT company, YEAR(date) AS years, SUM(total_laid_off) AS total_laid_off
-  FROM layoffs_staging2
+  FROM world_layoffs.layoffs_staging2
   GROUP BY company, YEAR(date)
 )
 , Company_Year_Rank AS (
@@ -110,7 +110,7 @@ ORDER BY years ASC, total_laid_off DESC;
 
 -- Rolling Total of Layoffs Per Month
 SELECT SUBSTRING(date,1,7) as dates, SUM(total_laid_off) AS total_laid_off
-FROM layoffs_staging2
+FROM world_layoffs.layoffs_staging2
 GROUP BY dates
 ORDER BY dates ASC;
 
@@ -119,7 +119,7 @@ ORDER BY dates ASC;
 WITH DATE_CTE AS 
 (
 SELECT SUBSTRING(date,1,7) as dates, SUM(total_laid_off) AS total_laid_off
-FROM layoffs_staging2
+FROM world_layoffs.layoffs_staging2
 GROUP BY dates
 ORDER BY dates ASC
 )
