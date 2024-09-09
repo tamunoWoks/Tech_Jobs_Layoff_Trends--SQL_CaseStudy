@@ -113,3 +113,16 @@ SELECT SUBSTRING(date,1,7) as dates, SUM(total_laid_off) AS total_laid_off
 FROM layoffs_staging2
 GROUP BY dates
 ORDER BY dates ASC;
+
+
+-- rolling total of the number of employees laid off for each month and year, showing the cumulative sum over time.
+WITH DATE_CTE AS 
+(
+SELECT SUBSTRING(date,1,7) as dates, SUM(total_laid_off) AS total_laid_off
+FROM layoffs_staging2
+GROUP BY dates
+ORDER BY dates ASC
+)
+SELECT dates, SUM(total_laid_off) OVER (ORDER BY dates ASC) as rolling_total_layoffs
+FROM DATE_CTE
+ORDER BY dates ASC;
