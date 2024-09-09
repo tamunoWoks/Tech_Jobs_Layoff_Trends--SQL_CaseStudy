@@ -64,3 +64,11 @@ FROM world_layoffs.layoffs_staging2
 GROUP BY country
 ORDER BY 2 DESC;
 -- The United States had the most with 256559 lay offs
+
+
+-- Total number of employees laid off each year in ascending order.
+SELECT YEAR(date), SUM(total_laid_off)
+FROM world_layoffs.layoffs_staging2
+GROUP BY YEAR(date)
+ORDER BY 1 ASC;
+-- 2023 has the most lay off
