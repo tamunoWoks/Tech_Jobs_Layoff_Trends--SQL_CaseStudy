@@ -80,3 +80,11 @@ FROM world_layoffs.layoffs_staging2
 GROUP BY industry
 ORDER BY 2 DESC;
 -- The Consumer industry had the most layoffs with 45182 lay offs
+
+
+-- Summarize the total number of employees laid off for each funding stage in descending order
+SELECT stage, SUM(total_laid_off)
+FROM world_layoffs.layoffs_staging2
+GROUP BY stage
+ORDER BY 2 DESC;
+-- The stage with the most layoffs is Post-IPO
