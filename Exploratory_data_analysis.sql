@@ -10,6 +10,12 @@ FROM world_layoffs.layoffs_staging2;
 -- Output: 12000
 
 
+-- Check date range of layoffs in dataset
+SELECT MIN(`date`), MAX(`date`)
+FROM world_layoffs.layoffs_staging2;
+-- Date range of data is from '2020-03-11' to '2023-03-06', hence we are working with three years of data
+
+
 -- Retrieve both the maximum and minimum values of the percentage laid off
 SELECT MAX(percentage_laid_off),  MIN(percentage_laid_off)
 FROM world_layoffs.layoffs_staging2
