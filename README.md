@@ -26,6 +26,7 @@ The dataset consists of nine(9) colums:
 
 ### PROBLEM STATEMENT
 The business questions to be answered include:
+- What is the date range of the data we are working with?
 - Are the layoffs increasing, decreasing, or stabilizing?
 - Which industries were most affected by layoffs?
 - Which regions or countries were most impacted by the layoffs?
