@@ -4,7 +4,9 @@ This is a data-driven study that focuses on the pattern of job cuts in tech comp
 
 Through data analysis and visualization, the project aims to uncover trends, patterns, and insights related to layoffs across various tech companies, regions, and job roles. By examining factors such as company size, industry segment, and the timing of layoffs, the project seeks to provide a comprehensive understanding of how the pandemic and subsequent economic conditions have impacted the tech workforce. 
 
-This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.
+This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.  
+
+This project focuses on exploring and cleaning a dataset of layoffs. The goal is to perform data analysis, derive insights, and provide a clear understanding of trends in the dataset. The project involves three primary steps: data cleaning, data exploration and data visualization.
 
 
 ### DATA OVERVIEW
