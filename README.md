@@ -12,16 +12,16 @@ This project focuses on exploring and cleaning a dataset of layoffs. The goal is
 1. [Data_cleaning.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.md) : A Markdown file detailing the steps taken during the Data cleaning process.
 
 2. [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql) : This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:  
-- Identifying and handling null values
-- Removing duplicates
-- Standardizing data types for key columns (e.g., date, numerical values)
-- Renaming columns for clarity.  
+  - Identifying and handling null values
+  - Removing duplicates
+  - Standardizing data types for key columns (e.g., date, numerical values)
+  - Renaming columns for clarity.  
 
 3. [EDA.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/EDA.md) : A Markdown file detailing the steps taken during the process of Data Exploration.  
 
 4. [Exploratory_data_analysis.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql) : This SQL script explores the layoffs dataset to identify trends, relationships, and key metrics. Key steps include:  
-- Data summary and structure examination
-- Querying for layoff trends by industry, date, and company.
+  - Data summary and structure examination
+  - Querying for layoff trends by industry, date, and company.
 
 5. [Layoffs.csv](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/layoffs.csv) : This CSV file contains the raw data used in the analysis.
   
