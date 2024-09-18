@@ -19,3 +19,13 @@ A copy ensures that the original data remains untouched and safe. If something g
 Since the table doesnt have a unique column to sort with, we must create one and add to a new table.
 - Delete duplicate rows:
 After sorting table to find duplicate rows, we then delete each row that has more than one entry.
+
+### Procedure for standardizing data
+- Trim whitepaces in column 1 entries:
+Trimming unnecessary whitespaces in our data helps maintain data integrity. In the company column, the crypto industry is represented with several labels, we need to make them unique.
+- Merge similar industries with same label:
+The Crypto industry is represented with different labels, hence we set them all to a single label.
+- Merge similar countries with same label:
+The United States is represented with different labels, hence we set them all to a single label.
+- Change DATE format from text to datetime:
+The date colum has its entries in a text format, we have to change the data type and set the format to the standard date format.
