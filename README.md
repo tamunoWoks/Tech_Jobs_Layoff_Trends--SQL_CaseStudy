@@ -6,10 +6,27 @@ Through data analysis and visualization, the project aims to uncover trends, pat
 
 This analysis can be valuable for businesses, policymakers, and professionals seeking to navigate the evolving tech job market.  
 
-This project focuses on exploring and cleaning a dataset of layoffs. The goal is to perform data analysis, derive insights, and provide a clear understanding of trends in the dataset. The project involves three primary steps: data cleaning, data exploration and data visualization.
+This project focuses on exploring and cleaning a dataset of layoffs. The goal is to perform data analysis, derive insights, and provide a clear understanding of trends in the dataset. The project involves three primary steps: data cleaning, data exploration and data visualization.  
 
+### Files in the Project
+#### Data Exploration - (layoffs dataset).sql
+This SQL script explores the layoffs dataset to identify trends, relationships, and key metrics. Key steps include:
 
-### DATA OVERVIEW
+- Data summary and structure examination
+- Querying for layoff trends by industry, date, and company
+
+#### Data Cleaning - (layoffs dataset).sql
+This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:
+
+- Identifying and handling null values
+- Removing duplicates
+- Standardizing data types for key columns (e.g., date, numerical values)
+- Renaming columns for clarity.
+
+#### layoffs.csv
+This CSV file contains the raw data used in the analysis.
+
+##### DATA OVERVIEW
 The dataset used for this project is sourced from Kaggle; and the data availability is from when COVID-19 was declared as a pandemic i.e. 11 March 2020 till (20 July 2024).
 
 Dataset -> [Layoffs Dataset](https://www.kaggle.com/datasets/swaptr/layoffs-2022)
