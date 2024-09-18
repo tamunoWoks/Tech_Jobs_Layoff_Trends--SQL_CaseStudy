@@ -1,4 +1,6 @@
-## DATA CLEANING
+## DATA CLEANING  
+Data Cleaning SQL file -> [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)  
+
 Before we can explore and analyse the data, we must first clean it up to help maintain data integrity. These are the following steps we will take to ensure the data is clean;
 
 1. Remove duplicates.
@@ -43,3 +45,4 @@ Unfortunately we do not have enough data to populate other columns with null val
 Because some rows do not have enough information, we have to delete them from the table so we can explore relevant data properly.
 - Delete temporary columns created during data cleaning:  
 Since we had to create an extra column (row_num) while cleaning our data, it is only reasonable to delete it once we are done.
+
