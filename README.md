@@ -61,3 +61,8 @@ Some of the challenges faced while cleaning and exploring the dataset include:
 Because some key columns were missing in the dataset, we couldn't populate certain columns like the total_laid_off column and the percentage_laid_off column which had several missing entries.
 - Deleting rows:  
 Some records in the dataset did not have enough information for exploration, hence we had to delete over a hundred records in the dataset.
+
+### FUTURE WORK
+- Advanced Analytics: Apply machine learning or statistical methods to predict layoffs based on the cleaned data.
+- Visualization: Use Python libraries like Matplotlib, Seaborn, or Tableau to visualize trends and insights.
+- Storytelling: Generate reports or dashboards for stakeholders summarizing key insights.
