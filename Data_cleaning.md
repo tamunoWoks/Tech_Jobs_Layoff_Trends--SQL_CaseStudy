@@ -48,3 +48,4 @@ Because some rows do not have enough information, we have to delete them from th
 - Delete temporary columns created during data cleaning:  
 Since we had to create an extra column (row_num) while cleaning our data, it is only reasonable to delete it once we are done.
 
+Our data is now clean and ready for exploration.
