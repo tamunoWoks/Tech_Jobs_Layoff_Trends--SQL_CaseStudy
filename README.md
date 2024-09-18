@@ -41,19 +41,15 @@ The dataset consists of nine(9) colums:
 - Funds_raised: Funds raised by the company (in Millions $).
 
 
-### PROBLEM STATEMENT
-The business questions to be answered include:
-- What is the date range of the data we are working with?
-- Are the layoffs increasing, decreasing, or stabilizing?
-- Which industries were most affected by layoffs?
-- Which regions or countries were most impacted by the layoffs?
-- Which companies had the highest number of layoffs?
-- How did the size of a company correlate with the likelihood or severity of layoffs?
+### ANALYSIS GOALS
+The key objectives of this project are:
+- Understand layoff trends over time, especially by industry and region.
+- Analyze the impact of layoffs across different companies.
+- Provide data-driven insights into workforce reductions, possibly linking external economic conditions.  
 
 ### METHODOLOGY  
 - Data Cleaning.
 - Exploratory Data Analysis (EDA).
-
 
 ### CHALLENGES
 Some of the challenges faced while cleaning and exploring the dataset include:
