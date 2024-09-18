@@ -9,9 +9,8 @@ This analysis can be valuable for businesses, policymakers, and professionals se
 This project focuses on exploring and cleaning a dataset of layoffs. The goal is to perform data analysis, derive insights, and provide a clear understanding of trends in the dataset. The project involves three primary steps: data cleaning, data exploration and data visualization.  
 
 ### Files in the Project  
-#### Data_cleaning.md
-A Markdown file detailing the steps taken during the Data cleaning process.  
-[Data_cleaning.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.md)
+#### [Data_cleaning.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.md)
+A Markdown file detailing the steps taken during the Data cleaning process.
 
 #### Data_cleaning.sql  
 This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:  
