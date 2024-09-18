@@ -12,24 +12,22 @@ This project focuses on exploring and cleaning a dataset of layoffs. The goal is
 #### [Data_cleaning.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.md)
 A Markdown file detailing the steps taken during the Data cleaning process.
 
-#### Data_cleaning.sql  
+#### [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)
 This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:  
 - Identifying and handling null values
 - Removing duplicates
 - Standardizing data types for key columns (e.g., date, numerical values)
-- Renaming columns for clarity.
-Data Cleaning SQL file -> [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)  
+- Renaming columns for clarity.  
 
-#### Exploratory_data_analysis.md
+#### [EDA.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/EDA.md)
 A Markdown file detailing the steps taken during the process of Data Exploration.  
 
-#### Exploratory_data_analysis.sql  
+#### [Exploratory_data_analysis.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
 This SQL script explores the layoffs dataset to identify trends, relationships, and key metrics. Key steps include:  
 - Data summary and structure examination
-- Querying for layoff trends by industry, date, and company
-Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
-
-#### Layoffs.csv
+- Querying for layoff trends by industry, date, and company.
+- 
+#### [Layoffs.csv](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/layoffs.csv)
 This CSV file contains the raw data used in the analysis.
 
 ##### DATA OVERVIEW
@@ -61,13 +59,6 @@ The business questions to be answered include:
 ### METHODOLOGY  
 - Data Cleaning.
 - Exploratory Data Analysis (EDA).
-
-
-#### EXPLORATORY DATA ANALYSIS (EDA)
-
-Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
-
-Here we will query our dataset to answer particular questions for us.
 
 
 ### CHALLENGES
