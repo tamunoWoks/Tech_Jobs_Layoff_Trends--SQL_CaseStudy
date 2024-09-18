@@ -9,22 +9,26 @@ This analysis can be valuable for businesses, policymakers, and professionals se
 This project focuses on exploring and cleaning a dataset of layoffs. The goal is to perform data analysis, derive insights, and provide a clear understanding of trends in the dataset. The project involves three primary steps: data cleaning, data exploration and data visualization.  
 
 ### Files in the Project  
-#### Data Cleaning - (layoffs dataset).sql  
-Data Cleaning SQL file -> [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)  
-This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:
+#### Data_cleaning.md
+A Markdown file detailing the steps taken during the Data cleaning process.  
+[Data_cleaning.md](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.md)
 
+#### Data_cleaning.sql  
+This SQL script cleans the layoffs dataset by handling issues such as missing values, inconsistencies, and formatting problems. Key steps include:  
 - Identifying and handling null values
 - Removing duplicates
 - Standardizing data types for key columns (e.g., date, numerical values)
-- Renaming columns for clarity.  
+- Renaming columns for clarity.
+Data Cleaning SQL file -> [Data_cleaning.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Data_cleaning.sql)  
 
-#### Data Exploration - (layoffs dataset).sql  
-Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
-This SQL script explores the layoffs dataset to identify trends, relationships, and key metrics. Key steps include:
+#### Exploratory_data_analysis.md
+A Markdown file detailing the steps taken during the process of Data Exploration.  
 
+#### Exploratory_data_analysis.sql  
+This SQL script explores the layoffs dataset to identify trends, relationships, and key metrics. Key steps include:  
 - Data summary and structure examination
 - Querying for layoff trends by industry, date, and company
-
+Exploratory Data Analysis SQL file -> [EDA.sql](https://github.com/tamunoWoks/Tech_Jobs_Layoff_Trends--SQL_CaseStudy/blob/main/Exploratory_data_analysis.sql)  
 
 #### Layoffs.csv
 This CSV file contains the raw data used in the analysis.
