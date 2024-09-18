@@ -5,3 +5,5 @@ Before we can explore and analyse the data, we must first clean it up to help ma
 2. Standardize data and fix errors.
 3. Look at Null values or Blank values.
 4. Remove unnecessary data.
+
+However, before we start manipulating the data, it is best practice to first create a copy of the raw data for backup purposes.
